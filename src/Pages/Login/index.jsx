@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import '../Login/login.css';
+import './login.css';
 
 export default function LoginPage(){
     const initialInput ={
