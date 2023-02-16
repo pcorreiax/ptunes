@@ -1,3 +1,4 @@
+import SongCard from '../../assets/Components/SongCard'
 import './mainContent.css'
 
 export default function MainContent() {
@@ -21,12 +22,9 @@ export default function MainContent() {
                         Liked songs
                     </div>
                     <hr/>
-                    <div className="sidebar-musicas-recentes">
-                        Musicas recentes
-                    </div>
                 </div>
                 <div className="main-content">
-                    principal
+                    <SongCard/>
                 </div>
             </div>
             <div className="player-section">
